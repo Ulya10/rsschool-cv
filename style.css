@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #030303;
+}
+
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #04497a;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #ffe4c4;
+    padding: 20px 0;
+}
+
+h1,
+h2 {
+    color: #2c3e50;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #0077cc;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#profile {
+    background-color: #faebd7;
+    font-size: 23px;
+}
+
+.profile-wrapper {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+#skills {
+    background-color: #faebd7;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.skills-list {
+    margin-left: 20px;
+}
+
+pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+#experience {
+    background-color: #faebd7;
+}
+
+.experience-list {
+    margin-left: 20px;
+}
+
+.experience-item::marker{
+    color: #0077cc;
+}
+
+.education-list{
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    margin-right: 10px;
+    color: #030303;
+}
+
+.footer-logo {
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 150px;
+}
