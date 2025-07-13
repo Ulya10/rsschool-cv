@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Uliana K CV</title>
-
+    <title>Ulyana K CV</title>
 </head>
-
 <body>
     <header>
         <div class="container">
@@ -29,17 +26,17 @@
             </nav>
         </div>
     </header>
-
     <main class="main">
-
         <section class="section" id="profile">
             <div class="container">
                 <div class="profile-wrapper">
                     <div class="profile-text">
-                        <h1 class="section-title main-title">Uliana K</h1>
+                        <h1 class="section-title main-title">Ulyana K</h1>
                         <ul class="profile-list">
                             <li class="profile-item">Phone: <a href="tel:+10203040506">+10203040506</a></li>
-                            <li class="profile-item">E-mail: <a href="mailto:+10203040506">yourfriend10@gmail.com</a></li>
+                            <li class="profile-item">E-mail: <a href="mailto:+10203040506">yourfriend10@gmail.com</a>
+                            </li>
+                            <li class="profile-item">Discord: ulyana9038, Ulya (@Ulya10) - RS School server</li>
                             <li class="profile-item"><a href="https://github.com/Ulya10">Github</a></li>
                         </ul>
                     </div>
@@ -47,107 +44,89 @@
                 </div>
             </div>
         </section>
-
         <section class="section" id="about">
             <div class="container">
-            <h2 class="section-title">About me</h2>
-            <p>Biomedical scientist transitioning into frontend development, after years of research experience —
-                analytical thinking, problem-solving, and attention to detail — to build clean, efficient, and
-                user-friendly web applications. Passionate about combining precision from science with creativity in
-                coding. Fast learner, eager to grow in tech and contribute to impactful projects.</p>
-        </div>
-    </section>
-
+                <h2 class="section-title">About me</h2>
+                <p>Biomedical scientist transitioning into frontend development, after years of research experience —
+                    analytical thinking, problem-solving, and attention to detail — to build clean, efficient, and
+                    user-friendly web applications. Passionate about combining precision from science with creativity in
+                    coding. Fast learner, eager to grow in tech and contribute to impactful projects.</p>
+            </div>
+        </section>
         <section class="section" id="skills">
             <div class="container">
-            <div class="skills-wrapper">
-                <div class="skills-text">
-                    <h2 class="section-title">Skills</h2>
-                    <ul class="skills-list">
-                        <li class="skills-item"><strong>HTML</strong></li>
-                        <li class="skills-item"><strong>CSS</strong></li>
-                        <li class="skills-item"><strong>JS</strong></li>
-                        <li class="skills-item">Basics of React</li>
-                        <li class="skills-item">Git</li>
-                        <li class="skills-item"><em>Adobe Photoshop</em></li>
-                    </ul>
+                <div class="skills-wrapper">
+                    <div class="skills-text">
+                        <h2 class="section-title">Skills</h2>
+                        <ul class="skills-list">
+                            <li class="skills-item"><strong>HTML</strong></li>
+                            <li class="skills-item"><strong>CSS</strong></li>
+                            <li class="skills-item"><strong>JS</strong></li>
+                            <li class="skills-item">Basics of React</li>
+                            <li class="skills-item">Git</li>
+                            <li class="skills-item"><em>Adobe Photoshop</em></li>
+                        </ul>
+                    </div>
+                    <img src="img/skills.jpg" alt="cat with notebook" class="skills-img">
                 </div>
-                <img src="img/skills.jpg" alt="cat with notebook" class="skills-img">
-            </div>
             </div>
         </section>
-
         <section class="section" id="code">
             <div class="container">
-            <h2 class="section-title">Code samples</h2>
-            <pre><code>function reverseCase(string) {
-let res = [];
-    for (let i=0; i < string.length; i++){
-        if (string[i+1] && string.charCodeAt(i) == string.charCodeAt(i+1)){
-            res.push(i, i+1);
-        }
+                <h2 class="section-title">Code samples</h2>
+                <pre><code>function stray(numbers) {
+  const newSet = new Set(numbers);
+  const newArr = [...newSet];
+  if (numbers[0]===numbers[1]){
+    return newArr[0]===numbers[0] ? newArr[1] : newArr[0]
+    } else {
+    return numbers[2]===numbers[0] ? numbers[1] : numbers[0]
     }
-    let res1 = [...new Set(res)]
-    let newStr = string.split('');
-
-    for (let j=0; j < res1.length; j++){
-       if (newStr[res1[j]].charCodeAt(0) < 91){
-        newStr[res1[j]] = newStr[res1[j]].toLowerCase();
-       } else {
-        newStr[res1[j]] = newStr[res1[j]].toUpperCase();
-       }
-    } 
-  return newStr.join('');
-}</code></pre>
-</div>
+  }</code></pre>
+            </div>
         </section>
-
         <section class="section" id="experience">
             <div class="container">
-            <h2 class="section-title">Work experience</h2>
-            <ul class="experience-list">
-                <li class="experience-item"><a href="https://github.com/Ulya10/uber">Uber</a></li>
-                <li class="experience-item"><a href="https://github.com/Ulya10/pulse">Pulse</a></li>
-                <li class="experience-item"><a href="https://github.com/Ulya10/miner">Minesweeper</a></li>
-            </ul>
-        </div>
+                <h2 class="section-title">Work experience</h2>
+                <ul class="experience-list">
+                    <li class="experience-item"><a href="https://github.com/Ulya10/uber">Uber</a></li>
+                    <li class="experience-item"><a href="https://github.com/Ulya10/pulse">Pulse</a></li>
+                    <li class="experience-item"><a href="https://github.com/Ulya10/miner">Minesweeper</a></li>
+                </ul>
+            </div>
         </section>
-
         <section class="section" id="education">
             <div class="container">
-            <h2 class="section-title">Education</h2>
-            <ol class="education-list">
-                <li class="education-item">Moscow Institute of Electronic Technology, Zelenograd (Bachelor's degree)
-                    Faculty of Electronics and Computer Technology, Design and Construction of Integrated Circuits
-                </li>
-                <li class="education-item">Moscow Institute of Electronic Technology, Zelenograd (Master's degree)
-                    Faculty of Electronics and Computer Technology, Biomedical Engineering</li>
-                <li class="education-item">"Product Manager in Healthcare", from 20.11.2023 to 29.03.2024</li>
-                <li class="education-item">"Development of Medical User Interfaces", from 05.05.2023 to 05.06.2023.</li>
-            </ol>
-        </div>
+                <h2 class="section-title">Education</h2>
+                <ol class="education-list">
+                    <li class="education-item">Moscow Institute of Electronic Technology, Zelenograd (Bachelor's degree)
+                        Faculty of Electronics and Computer Technology, Design and Construction of Integrated Circuits
+                    </li>
+                    <li class="education-item">Moscow Institute of Electronic Technology, Zelenograd (Master's degree)
+                        Faculty of Electronics and Computer Technology, Biomedical Engineering</li>
+                    <li class="education-item">"Product Manager in Healthcare", from 20.11.2023 to 29.03.2024</li>
+                    <li class="education-item">"Development of Medical User Interfaces", from 05.05.2023 to 05.06.2023.
+                    </li>
+                </ol>
+            </div>
         </section>
-
         <section class="section" id="english">
             <div class="container">
-            <h2 class="section-title">English</h2>
-            <p>Intermediate</p>
-        </div></section>
-        
+                <h2 class="section-title">English</h2>
+                <p>Intermediate</p>
+            </div>
+        </section>
     </main>
-
     <footer class="footer">
         <div class="container">
             <div class="footer-wrapper">
                 <a href="https://github.com/Ulya10" class="footer-link">Ulya10</a>
-            <span>© 2023</span>
-            <a href="https://rs.school/courses/javascript-ru" class="footer-course-link">
-                <img src="img/rs-school-logo.svg" alt="course logo" class="footer-logo">
-            </a>
+                <span>© 2023</span>
+                <a href="https://rs.school/courses/javascript-ru" class="footer-course-link">
+                    <img src="img/rs-school-logo.svg" alt="course logo" class="footer-logo">
+                </a>
             </div>
-            
         </div>
     </footer>
 </body>
-
 </html>

@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
@@ -16,12 +12,10 @@ body {
     color: #030303;
 }
 
-
 a {
     color: #0077cc;
     text-decoration: none;
 }
-
 
 a:hover {
     color: #04497a;
@@ -53,17 +47,13 @@ nav ul {
 }
 
 nav a {
-    text-decoration: none;
-    color: #333;
     font-weight: bold;
     padding: 5px 10px;
 }
 
 nav a:hover {
-    color: #0077cc;
     background-color: #e0e0e0;
     border-radius: 4px;
-    text-decoration: none;
 }
 
 .section {
@@ -82,6 +72,10 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+}
+
+.profile-item a{
+    color: #030303;
 }
 
 .profile-img {
@@ -152,7 +146,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .footer-link {
