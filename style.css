@@ -74,10 +74,6 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.profile-item a{
-    color: #030303;
-}
-
 .profile-img {
     width: 200px;
     height: 200px;
@@ -150,7 +146,6 @@ footer {
 
 .footer-link {
     margin-right: 10px;
-    color: #030303;
 }
 
 .footer-logo {
